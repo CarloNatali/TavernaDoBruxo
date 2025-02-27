@@ -1,0 +1,137 @@
+
+/* estilização do BODY do site */
+body{
+    margin: 0;
+    border: 0;
+    font-family: tahoma, Arial;
+}
+
+
+/* .banner{
+    position: relative;
+    margin: 20 0 0 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+} */
+
+
+.banner img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+
+/* altera o tamanho do logo */
+.logo {
+    width: 8%;
+    margin: 20 0 0 50;
+}
+
+
+
+
+/* estilização do header */
+header{
+    background-color: rgb(60, 50, 54);
+}
+
+
+
+/* estilização da DIV do Header */
+.divHeader{
+    position: relative; 
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+
+/* estilizaçãod do MENU do site */
+nav{
+    position: absolute;
+    top: 50px;
+    right: 30;
+}
+
+
+/* estilização dos links dos menus */
+nav li{
+    display: inline;
+    color: rgb(238, 228, 195);
+    font-size: 25;
+    margin-right: 15;
+    
+}
+
+
+
+.titulo_sobrenos{
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 2%;
+    
+}  
+
+
+.sda{
+    width: 20%;
+    float: left;
+    margin-right: 40px;
+    margin-left: 80px;
+   
+}
+
+.sobre_nos{
+    text-align: justify;
+    margin-right: 40px;
+    
+    
+}
+
+.text_1{
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 15%;
+
+}
+
+
+.texto_dif{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+
+/* estilização da seção do nosso etabelecimento e do mapa */
+.mapa{
+    padding-left:30%; /* coloca um espaço na margem da esquerda*/
+    /* background:linear-Gradient(#A9A9A9, #696969); */
+    
+    }
+.mapa_loc{
+    margin: auto;
+    width: 900px;
+}
+
+.mapa_text{
+    text-align: center;
+    padding-right: 25%;
+
+    }
+
+    .estab{
+        text-align: center;
+        padding-right: 25%;
+    }
+
+.background_color{
+    background:linear-Gradient(#FFFFFF, #A9A9A9, #696969);
+} 
