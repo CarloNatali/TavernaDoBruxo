@@ -3,6 +3,12 @@
         <link href="CSS/style.css" rel="stylesheet"><!-- incorpora conteudo do css no HTML-->
         <meta charset="UTF-8"/> 
         <title>Taverna do Bruxo</title>
+            <script>
+                alert('bem vindo ao site');
+                    dia = new Array('domingo','segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado')
+                    mes = new Array('JAN', 'FEV','MAR', 'ABR', 'MAIO', 'JUN', 'JUL', 'AGO,', 'SET', 'OUT', 'NOV', 'DEZ')
+                    data = new Date
+            </script>
     </head>
         <body> 
               
@@ -29,6 +35,11 @@
                         <h2 class="titulo_sobrenos"> Sobre nós </h2>
                         <img src="IMG/lor.jpeg" title="LOR" class="sda"> 
                             <div class="text_1">
+                                <p>
+                                    <script>
+                                        document.write(dia[data.getDay()]) + data.getDate() + 'de' + mes[data.getmonth()];
+                                    </script>
+                                </p>
                                 <p><b> apaixonados por board games e RPG!</b> Nosso objetivo é criar um espaço dedicado a jogadores de todos os níveis,
                             desde iniciantes até veteranos, oferecendo conteúdo de qualidade, guias, resenhas e discussões sobre os jogos que amamos.</p>
                             </div>
@@ -46,9 +57,31 @@
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.828315335831!2d-46.53804222501508!3d-23.71782426735835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce41ecb32f5cb9%3A0x3df546761bffb971!2sAv.%20Luiz%20Pequini%2C%20516%20-%20Santa%20Terezinha%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009780-250!5e0!3m2!1spt-BR!2sbr!4v1740608185304!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </section>   
-                </div>    
-                
-            </main>  
-            
+                </div>     
+                </main>  
+            <section class="back2">
+                <div class="container">
+                <h1 class="incio">Nossos Produtos!</h1>
+                <div class="conteudo">
+                    <img src="disco.jpg" title="produto" class="modo">
+                    <ul class="lista">
+                        <li>Board Games</li>  
+                        <li>Card games</li>  
+                        <li>Jogos infantis</li> 
+                        <li>acesso a nossos espaçoes e muito mais...</li>
+                    </ul>
+                </div>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/km5FAAQLUT8?si=MWTmiReJhBXwKdXG" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+                <!-- rodape do site -->
+                <footer>
+                    <img src="newlogo.jpeg" alt="Taverna do bruxo" class="logo_footer"/>
+                    <p>Encomendas on-line: <a href="https://wa.me/5511947984702"><i class="fa fa-whatsapp"></i></a> (11) 9 4798 - 4702 | 
+                                            <a href= img src="IMG/zapzap.png" width="30" alt="WhatsApp">/a>"https://www.instagram.com/g.rafaelribeiro/"><i class="fa fa-instagram"></i></a> @natali_enrico</p>
+                </footer> 
         </body>
 </html>

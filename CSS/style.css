@@ -135,3 +135,7 @@ nav li{
 .background_color{
     background:linear-Gradient(#FFFFFF, #A9A9A9, #696969);
 } 
+
+.back2{
+    background:linear-Gradient(#696969, #A9A9A9, #FFFFFF);
+}
