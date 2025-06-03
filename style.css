@@ -326,18 +326,19 @@ font-size: 24px;
     align-items: center;
     margin: 100px 50px;
     gap: 50px;
+   
   }
   
   .sobre-texto {
     max-width: 50%;
     font-size: 18px;
     line-height: 1.6;
-    color: #13378b;
+    color: #ffffff;
   }
   
   .sobre-texto h1 {
     font-size: 36px;
-    color: #5486c6;
+    color: #ffffff;
     margin-bottom: 20px;
   }
   
@@ -350,8 +351,8 @@ font-size: 24px;
   
   .insta-chamada {
     text-align: center;
-    background-color: #13378b;
-    color: #f5f5dc;
+    background-color: #f5f5dc;
+    color: #000000;
     padding: 60px 20px;
     margin-top: 50px;
   }
