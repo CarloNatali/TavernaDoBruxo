@@ -41,18 +41,19 @@ header{
 }
 
 .logo{
-    height: 100px;
-    width: 125px;
+    height: 78px;
+    width: 100px;
     border-radius: 100%;
     margin-left: 50px;
 }
 
-.ul_header {
+.ul_header  {
     display: flex;
     flex-direction: row;
     gap: 45px;
     margin-right: 50px;
     text-decoration: none;
+    font-size: 20px;
     
 }
 
@@ -131,6 +132,12 @@ a:hover {
 iframe{
     margin-left: 35%;
 }
+
+.container_video{
+
+    background: linear-gradient(#ffffff,#3c3238);
+}
+
 
 /* Produtos */
 .container_produtos{
@@ -229,6 +236,8 @@ footer p{
 
 .pop{
     margin: 0;
+    color:#ffffff;
+
 }
 
 .pop img {
