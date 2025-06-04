@@ -74,13 +74,14 @@ a:hover {
     height: auto;
     max-height: 500px; 
     overflow: hidden;
+    
 }
 
 .banner img {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Sobre nós */
@@ -257,9 +258,6 @@ footer p{
     list-style: none; 
     } 
 
-    .contatos-item:before{ 
-    content:"📷";
-    } 
     
     .texto-contatos{ 
     padding-left: 5%; 
@@ -298,8 +296,8 @@ margin: 20px 0;
 width: 40%; 
 padding: 15px 0; 
 margin-bottom: 20px; 
-background:#13378b;
-color: white; 
+background:white;
+color: black; 
 font-weight: bold; 
 border: none; 
 border-radius: 5px; 
@@ -381,5 +379,9 @@ font-size: 24px;
   .botao-insta:hover {
     background-color: #c92e4d;
     cursor: pointer;
+  }
+
+  .bodyContato {
+    background: linear-gradient(#f5f5dc,#3c3238);
   }
   
